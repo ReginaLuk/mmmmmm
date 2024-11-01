@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAM MONDRIAN</title>
+    <style>
+        body{
+            background-color: #232629;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            width: 748px;
+            height: 748px;
+            background-color: #000;
+            grid-template-columns: 292px 292px 146px;
+            grid-template-rows: 360px 180px 135px 45px;
+            gap: 9px;
+        }
+        .yellow{
+            background-color: #F9D01E;
+        }
+        .w1{
+            background-color: #F0F1EC;
+            grid-column: span 2;
+        }
+        .w2{
+            background-color: #F0F1EC;
+            grid-row: span 3;
+        }
+        .w3{
+            background-color: #F0F1EC;
+            grid-row: span 2;
+        }
+        .blue{
+            background-color: #004592;
+            border-bottom: 10px solid black;
+        }
+        .w4{
+            background-color: #F0F1EC;
+            grid-row: span 2;
+        }
+        .w5{
+            background-color: #F0F1EC;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+            <div class="item yellow">   </div>
+            <div class="item w1">   </div>
+            <div class="item w2">   </div>
+            <div class="item w3">   </div>
+            <div class="item blue">   </div>
+            <div class="item w4">   </div>
+            <div class="item w5">   </div>
+
+    </div>
+</body>
+</html>
